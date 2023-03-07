@@ -36,3 +36,16 @@ const taskobjects = [
 
 console.log(taskobjects);
 
+const ProductName = {
+    productTitle: "PC i5",
+    productDescription: "computer",
+    productPrice: 2350,
+    shopAddresses: "pekini 1",
+    productMemoryinGB: 128,
+    productResolution: "1920x1024",
+};
+
+console.log("Product name is", ProductName["PC i5"]);
+console.log("Product price is", ProductName["2350"]);
+console.log("Product  resolution  is", ProductName["1920x1024"]);
+console.log("and you can buy it at ", ProductName["pekini 1"]);
